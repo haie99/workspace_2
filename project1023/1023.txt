@@ -1,0 +1,8 @@
+is a 관계가 실제 코드에서 어떻게 사용되는지
+
+Duck은 사용자 정의 자료형이므로, Duck형 이다  - O
+
+Duck 형은 is a Bird형 이다 == 오리는 새의 자료형이다 - O
+class Duck extends Bird{
+	   is   a
+}
